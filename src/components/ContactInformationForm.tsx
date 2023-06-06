@@ -63,7 +63,7 @@ export function ContactFormView({setViewMode}: { setViewMode: (mode: TViewMode) 
 					{Object.keys(formikProps.errors).length > 0 &&
 					<ExtraErrors excludedFields={excludedFields} errors={formikProps.errors}/>}
 					<Typography variant="h5" mb={2}>
-						Contact information
+						Thông tin liên hệ
 					</Typography>
 					{(accountPolicy === TCheckoutAccountPolicy.guestAndLogin && !loggedInCustomer) &&
 					<Typography align={'right'}
